@@ -68,22 +68,27 @@
 
 
 .home-container {
-
     width: 100%;
     min-height: 93.4vh;
+
     background-image:
         linear-gradient(
-
-            rgba(84, 36, 108, 0.879)
+            rgba(62, 6, 91, 0.88),
+            rgba(62, 6, 91, 0.88)
         ),
         url("bgimg1.0UB-cuA0wOUQ6N0K7dsKQgHaEO");
-  background-size: cover;
-            background-position: center;
-            color: var(--white);
-            padding: 5px 0 60px;
-            font-family: 'Montserrat', sans-serif;
-            letter-spacing: 1.0px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: var(--white);
+    padding: 5px 0 60px;
+
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.8px;
 }
+
 
 .Center-heading{
     align-items: center;
@@ -581,112 +586,14 @@ color: #000000;
         gap: 1.5rem;
     }
 }
-.consultation-section {
-  padding: 50px 20px;
-  background-color: #cbb986;
-  text-align: center;
-}
-
-.consultation-heading {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.consultation-subheading {
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 40px;
-}
-
-.consultation-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.consultation-card {
-  background-color: #fff;
-  padding: 25px;
-  width: 280px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.consultation-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-}
-
-.card-icon {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
-}
-
-
-
-.title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #111;
-  margin-bottom: 25px;
-}
-
-.badge-section {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-bottom: 25px;
-}
-
-.badge {
-  background: #eaeaea;
-  padding: 12px 20px;
-  border-radius: 12px;
-  font-weight: 600;
-  color: #333;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  transition: 0.3s;
-}
-
-.badge i {
-  color: #ffb800;
-  margin-right: 10px;
-}
-
-.badge:hover {
-  background-color: #1a73e8;
-  color: #fff;
-  cursor: default;
-}
-
-.badge .desc {
-  font-weight: 400;
-  font-size: 14px;
-  color: #555;
-  margin-top: 3px;
-}
-
-.rating {
-  font-size: 18px;
-  font-weight: 700;
-  color: #1a73e8;
-}
-
-.stars {
-  font-weight: 900;
-  margin-right: 5px;
-}
 
 /* ===== Consultation Section ===== */
 .consultation-section {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(135deg, #fdf6f0, #f7f7f7); /* soft gradient for elegance */
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #cec2ff, #8124c0);
+    color: #100f0f;
     padding: 80px 20px;
     display: flex;
     justify-content: center;
@@ -701,13 +608,13 @@ color: #000000;
 .consultation-heading {
     font-size: 42px;
     font-weight: 700;
-    color: #222;
+    color: #232222;
     margin-bottom: 15px;
 }
 
 .consultation-subheading {
     font-size: 18px;
-    color: #555;
+    color: #000000;
     margin-bottom: 50px;
     line-height: 1.6;
 }
@@ -721,7 +628,7 @@ color: #000000;
 
 .consultation-card {
     flex: 1 1 300px;
-    background-color: #fff;
+    background-color: #fbf2f2;
     border-radius: 15px;
     padding: 30px 25px;
     box-shadow: 0 12px 25px rgba(0,0,0,0.12);
@@ -755,7 +662,7 @@ color: #000000;
 
 /* ===== Excellence Section ===== */
 .excellence-section {
-    background-color: #f7f7f7;
+    background-color: #61759b;
     padding: 80px 20px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -764,7 +671,7 @@ color: #000000;
 .excellence-section h1 {
     font-size: 42px;
     font-weight: 700;
-    color: #222;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
@@ -785,7 +692,7 @@ color: #000000;
 
 .excellence-section .card {
     flex: 1 1 250px;
-    background-color: #fff;
+    background-color: #f4f4f4;
     border-radius: 15px;
     padding: 35px 20px;
     text-align: center;
@@ -796,7 +703,8 @@ color: #000000;
 
 .excellence-section .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+     box-shadow: #262627 7px 7px 7px 7px;
+    
 }
 
 .excellence-section .card img {
@@ -1090,59 +998,106 @@ color: #000000;
 }
 
  .testimonial-section {
-    background-color: #f5f5f5; /* light gray for a clean professional look */
-    padding: 60px 20px;
-    font-family: 'Arial', sans-serif;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #383157, #501775);
 }
 
+.testimonial-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Image Styling */
+.testimonial-image {
+  margin-bottom: 40px;
+}
+
+.testimonial-image img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+/* Heading */
 .testimonial-container h1 {
-    text-align: center;
-    color: #222; /* dark text for readability */
-    font-size: 2.5em;
-    margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
-.testimonial-container .underline {
-    width: 80px;
-    height: 3px;
-    background-color: #ff9900; /* subtle accent color */
-    margin: 0 auto 40px auto;
-    border-radius: 2px;
+.underline {
+  width: 80px;
+  height: 3px;
+  background: #000000;
+  margin: 0 auto 50px;
+  border-radius: 2px;
+}
+.about-section {
+  display: flex;
+  flex-direction: column; /* Stack image and content vertically */
+  align-items: center;
+  max-width: 100%; /* Adjust container width */
+  
+  padding: 35px;
+  text-align: center;
+  background-color: #a68fa6;
+  font-family: Arial, sans-serif;
+  color: #0e0e0e;
 }
 
+.about-image {
+  width: 100%;
+  max-width: 300px; /* Adjust image size */
+  height: auto;
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  font-size: 1rem;
+  width: 50rem;
+  line-height: 1.6;
+  color: #2f2e2e;
+  font-weight: 600;
+}
+
+/* Testimonial Cards */
 .testimonials-slider {
-    display: flex;
-    gap: 30px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
 }
 
 .testimonial-card {
-    background-color: #ffffff; /* white cards stand out on gray background */
-    padding: 30px 25px;
-    margin-left:7rem;
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    flex: 0 0 300px; /* card width */
+  background: rgba(255, 255, 255, 0.12);
+  padding: 30px;
+  border-radius: 14px;
+  backdrop-filter: blur(6px);
 }
 
 .testimonial-text {
-    font-size: 1em;
-    color: #555; /* softer text color */
-    line-height: 1.6;
-    margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 20px;
 }
 
 .testimonial-card h3 {
-    font-size: 1.1em;
-    color: #222;
-    margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .testimonial-card span {
-    font-size: 0.9em;
-    color: #888;
+  font-size: 13px;
+  opacity: 0.85;
 }
 
 .contact-hero {
